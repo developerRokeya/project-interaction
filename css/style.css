@@ -1,0 +1,258 @@
+body {
+  margin-bottom: 50px;
+}
+
+/* header start */
+header {
+  padding: 20px 0;
+  background-color: #05c9c9;
+  border-bottom: 1px solid black;
+}
+.c_nav {
+}
+.nav_b {
+  margin-right: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.logo {
+  font-size: 35px;
+  font-weight: 400;
+  color: #000000;
+  width: 100%;
+}
+.nav_t {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+.nav_t:focus {
+  box-shadow: none !important;
+}
+.nav_t_i {
+  font-size: 30px;
+  color: #ffffff !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+.menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000 !important;
+  padding: 0 25px !important;
+  transition: 0.3s;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0 !important;
+}
+.menu ul li a:hover {
+  color: #ffffff !important;
+}
+/* header end */
+
+h1 {
+  color: black;
+}
+h2 {
+  color: blue;
+}
+h3 {
+  color: blueviolet;
+}
+.jquary {
+  background-color: rgb(202, 202, 202);
+}
+.btn {
+  border: 1px solid blue;
+}
+.h3 {
+  color: brown;
+}
+.panel-flip {
+  margin: 20px 0;
+}
+.panel {
+  background-color: rgb(138, 213, 236);
+  padding: 10px;
+  color: black;
+  cursor: pointer;
+}
+.flip {
+  background-color: goldenrod;
+  padding: 10px;
+  color: black;
+  display: none;
+}
+/* interaction start */
+/* draggABLE */
+#dragg {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  background-color: rgb(219, 245, 149);
+  border: 1px solid blue;
+}
+/* droppable */
+#droppable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+#draggable,
+#draggable-nonvalid {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+/*  resizable */
+#resizable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+#resizable h3 {
+  text-align: center;
+  margin: 0;
+}
+/* Selectable */
+#feedback {
+  font-size: 1.4em;
+}
+#selectable .ui-selecting {
+  background: #feca40;
+}
+#selectable .ui-selected {
+  background: #f39814;
+  color: white;
+}
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#selectable li {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4e;
+}
+/* sortable */
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 50px;
+}
+#sortable li span {
+  position: absolute;
+  margin-left: -1.3em;
+}
+/* interaction end */
+/* widgets start*/
+/* menu */
+.ui-menu {
+  width: 150px;
+}
+/* Progressbar */
+#progressbar {
+  margin-top: 20px;
+}
+
+.progress-label {
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.ui-dialog-titlebar-close {
+  display: none;
+}
+.tittle {
+  text-align: center;
+  color: darkred;
+}
+/* select menu */
+fieldset {
+  border: 0;
+}
+label {
+  display: block;
+  margin: 30px 0 0 0;
+}
+.overflow {
+  height: 200px;
+}
+/* tooltip */
+label {
+  display: inline-block;
+  width: 5em;
+}
+/*  widgets start */
+/* effect start */
+.toggler {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect {
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+  position: relative;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+.ui-effects-transfer {
+  border: 2px dotted gray;
+}
+/* toggle */
+.toggler {
+  width: 500px;
+  height: 200px;
+}
+#button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect {
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+  position: relative;
+}
+#effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+/* effect end */
+/* utilities */
+.custom-colorize {
+  font-size: 20px;
+  position: relative;
+  width: 75px;
+  height: 75px;
+}
+.custom-colorize-changer {
+  font-size: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

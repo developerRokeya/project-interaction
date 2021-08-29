@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>jq_ui</title>
+  </head>
+  <body>
+    <section class="jq_in">
+      <!-- draggable -->
+      <section class="draggable">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div id="dragg" class="ui-widget-content">
+              <p>Drag me around</p>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <!-- droppable -->
+      <section class="droppable">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div id="draggable-nonvalid" class="ui-widget-content">
+              <p>I&apos;m draggable but can&apos;t be dropped</p>
+            </div>
+
+            <div id="draggable" class="ui-widget-content">
+              <p>Drag me to my target</p>
+            </div>
+
+            <div id="droppable" class="ui-widget-header">
+              <p>accept: &apos;#draggable&apos;</p>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </section>
+
+      <!-- resizable -->
+      <section class="resizable">
+        <div class="container">
+          <div id="resizable" class="ui-widget-content">
+            <h3 class="ui-widget-header">Resizable</h3>
+          </div>
+        </div>
+      </section>
+      <!-- Selectable -->
+      <section class="Selectable">
+        <div class="container">
+          <div class="row justify-content-center">
+            <ol id="selectable">
+              <li class="ui-widget-content">Item 1</li>
+              <li class="ui-widget-content">Item 2</li>
+              <li class="ui-widget-content">Item 3</li>
+              <li class="ui-widget-content">Item 4</li>
+              <li class="ui-widget-content">Item 5</li>
+              <li class="ui-widget-content">Item 6</li>
+              <li class="ui-widget-content">Item 7</li>
+            </ol>
+            <hr />
+          </div>
+        </div>
+      </section>
+      <!-- Sortable -->
+      <section class="Sortable">
+        <div class="container">
+          <div class="row">
+            <ul id="sortable">
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6
+              </li>
+              <li class="ui-state-default">
+                <span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- JS links-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
